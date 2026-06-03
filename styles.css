@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contenedor {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.productosContenedor,
+.carritoContenedor {
+    width: 420px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.productosContenedor {
+    background-color: white;
+}
+
+.carritoContenedor {
+    background-color: white;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 80px 70px auto;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px;
+    margin-bottom: 10px;
+
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.btnAñadir {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnAñadir:hover {
+    background-color: #218838;
+}
+
+.btnQuitar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnQuitar:hover {
+    background-color: #c82333;
+}
+
+#totalPrecio {
+    margin-top: 20px;
+    padding: 15px;
+
+    background-color: #198754;
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    border-radius: 8px;
+}
